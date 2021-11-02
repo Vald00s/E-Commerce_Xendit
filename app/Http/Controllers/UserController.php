@@ -10,6 +10,6 @@ class UserController extends Controller
     public function index()
     {
         $user = Auth::user();
-        return view('home', compact('user'));
+        return view('/user/home', compact('user'));
     }
 }
