@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <p><strong>Selamat datang cok{{ $user->name }}!</strong> Anda telah melakukan login sebagai {{ $user->role }}</p>
+                    <p><strong>Selamat datang ya..{{ $user->name }}!</strong> Anda telah melakukan login sebagai {{ $user->role }}</p>
                 </div>
             </div>
         </div>
