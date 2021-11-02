@@ -18,5 +18,5 @@
 ##
 
 # Note
-Keterangan:```. . .```
+Keterangan:```Untuk Back End login sudah selesai. lanjutkan terlebih dahulu front end di login-```
 
