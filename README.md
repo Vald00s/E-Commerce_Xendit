@@ -18,5 +18,14 @@
 ##
 
 # Note
-Keterangan:```Untuk Back End login sudah selesai. lanjutkan terlebih dahulu front end di login-```
+Penggunaan:
+- instalasi
+```
+composer require laravel/socialite
+composer require laravel/ui
+php artisan ui vue
+php artisan ui vue --auth
+npm install
+npm run dev
+```
 
