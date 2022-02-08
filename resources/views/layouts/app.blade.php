@@ -50,6 +50,10 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <!--user edit profile-->
+                                    <a href="{{ route('profile.edit', ['user' => Auth::user()->id]) }}"
+                                        class="dropdown-item">Edit Profile</a>
+
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
