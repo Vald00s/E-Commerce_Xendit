@@ -10,12 +10,12 @@ class UserController extends Controller
 {
     public function index()
     {
-        return User::all();
         $user = Auth::user();
         return view('/user/home', compact('user'));
     }
     public function delete($name)
     {
+        return User::all();
         $user = User::find($name);
         $user->delete();
         return "data berhasil dihapus";
