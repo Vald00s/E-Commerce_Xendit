@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>MyResume Bootstrap Template - Index</title>
+    <title>VALD00s</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -272,17 +272,17 @@
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="{{ asset('img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <h3>Rivaldo Marta Dinata</h3>
+                                <h4>Ceo &amp; Developer</h4>
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                    risus at semper.
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Dari sini saya mendapatkan banyak relasi sekaligus istri saya sendiri. Terimakasih banyak untuk saya sendiri selaku developer dari aplikasi ini.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
                         </div>
                         <!-- End testimonial item -->
 
+                        <!-- Testimoni selanjutnya
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="{{ asset('img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
@@ -295,7 +295,6 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- End testimonial item -->
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
@@ -309,7 +308,6 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- End testimonial item -->
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
@@ -323,7 +321,6 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- End testimonial item -->
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
@@ -337,7 +334,8 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- End testimonial item -->
+
+                        End testimonial item -->
 
                     </div>
                     <div class="swiper-pagination"></div>
