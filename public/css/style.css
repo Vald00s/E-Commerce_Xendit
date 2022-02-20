@@ -279,7 +279,7 @@ body {
     font-family: Poppins;
 }
 
-.container {
+.container2 {
     width: 900px;
     background: #fff;
     margin: 0 auto;
@@ -671,7 +671,7 @@ label.valid:after {
 
 @media screen and (max-width: 1200px) {
     .container {
-        width: calc( 100% - 30px);
+        width: calc(100% - 30px);
         max-width: 100%;
     }
 }
@@ -683,6 +683,7 @@ label.valid:after {
 }
 
 @media screen and (max-width: 768px) {
+
     .signup-content,
     .signin-content {
         flex-direction: column;
@@ -696,6 +697,7 @@ label.valid:after {
         -o-justify-content: center;
         -ms-justify-content: center;
     }
+
     .signup-form {
         margin-left: 0px;
         margin-right: 0px;
@@ -703,6 +705,7 @@ label.valid:after {
         /* box-sizing: border-box; */
         padding: 0 30px;
     }
+
     .signin-image {
         margin-left: 0px;
         margin-right: 0px;
@@ -713,12 +716,14 @@ label.valid:after {
         -o-order: 2;
         -ms-order: 2;
     }
+
     .signup-form,
     .signup-image,
     .signin-form,
     .signin-image {
         width: auto;
     }
+
     .social-login {
         justify-content: center;
         -moz-justify-content: center;
@@ -726,9 +731,11 @@ label.valid:after {
         -o-justify-content: center;
         -ms-justify-content: center;
     }
+
     .form-button {
         text-align: center;
     }
+
     .signin-form {
         order: 1;
         -moz-order: 1;
@@ -739,6 +746,7 @@ label.valid:after {
         margin-left: 0px;
         padding: 0 30px;
     }
+
     .form-title {
         text-align: center;
     }
@@ -752,6 +760,7 @@ label.valid:after {
         -o-flex-direction: column;
         -ms-flex-direction: column;
     }
+
     .social-label {
         margin-right: 0px;
         margin-bottom: 10px;
