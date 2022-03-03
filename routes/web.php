@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\FacebookController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProfileController;
@@ -53,3 +54,7 @@ Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPass
 
 //profile
 Route::get('/profile/{user}/edit', [App\Http\Controllers\ProfileController::class, 'edit'])->name('profile.edit')->middleware('auth');
+
+//facebook
+Route::get('auth/facebook', [FacebookController::class, 'facebookRedirect']);
+Route::get('auth/facebook/callback', [FacebookController::class, 'loginWithFacebook']);
