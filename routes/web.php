@@ -23,7 +23,7 @@ Route::get('/', function () {
 
 
 //role
-
+Auth::routes();
 //Login
 Auth::routes(['verify' => true]);
 Route::middleware(['auth'])->group(function () {
