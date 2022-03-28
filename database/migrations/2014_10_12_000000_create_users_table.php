@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('role')->default('user');
             $table->rememberToken();
             $table->timestamps();
+            $table->string('fb_id')->nullable();
         });
     }
 
@@ -33,5 +34,8 @@ class CreateUsersTable extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('fb_id');
+        });
     }
 }

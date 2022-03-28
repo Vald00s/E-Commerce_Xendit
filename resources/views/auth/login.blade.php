@@ -65,7 +65,7 @@
                         <div class="social-login">
                             <span class="social-label">Or login with</span>
                             <ul class="socials">
-                                <li><a href="https://facebook.com/"><i
+                                <li><a href="{{ url('auth/facebook') }}"><i
                                             class="display-flex-center zmdi zmdi-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/"><i class="display-flex-center zmdi zmdi-twitter"></i></a>
                                 </li>
