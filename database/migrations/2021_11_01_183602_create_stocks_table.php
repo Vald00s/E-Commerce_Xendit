@@ -18,7 +18,6 @@ class CreateStocksTable extends Migration
             $table->unsignedBigInteger('product_id');
             $table->string('name')->nullable();
             $table->integer('quantity')->nullable();
-
             $table->timestamps();
             $table->index('product_id');
         });
